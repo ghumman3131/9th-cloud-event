@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/salon"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/salon_grad"></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_salonname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/stroke"
+        android:gravity="center"
+        android:hint="salon name"
+        android:textColorHint="#000" />
+
+
+
+    <TextView
+        android:id="@+id/tv_salonlocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/stroke"
+        android:gravity="center"
+        android:hint=" salon location"
+        android:textColorHint="#000" />
+
+    <TextView
+        android:id="@+id/tv_salonservices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/stroke"
+        android:gravity="center"
+        android:hint="services"
+        android:textColorHint="#000" />
+
+
+    <TextView
+        android:id="@+id/tv_salonprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/stroke"
+        android:gravity="center"
+        android:hint="price"
+
+        android:textColorHint="#000" />
+
+
+</LinearLayout>
+
+
+</RelativeLayout>

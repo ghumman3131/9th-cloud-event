@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/caterer"
+    android:orientation="vertical">
+<View
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/caterer_grad"></View>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/et_caterername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/stroke"
+        android:gravity="center"
+        android:hint="caterer's name"
+        android:textColorHint="#000" />
+
+
+
+    <EditText
+        android:id="@+id/et_catererloc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/stroke"
+        android:gravity="center"
+        android:hint=" caterer's location"
+        android:textColorHint="#000" />
+
+    <EditText
+        android:id="@+id/et_catererservices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/stroke"
+        android:gravity="center"
+        android:hint="services"
+        android:textColorHint="#000" />
+
+
+    <EditText
+        android:id="@+id/et_catererprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/stroke"
+        android:gravity="center"
+        android:hint="price"
+
+        android:textColorHint="#000" />
+
+    <Button
+        android:id="@+id/save_caterer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:background="@drawable/stroke_caterer"
+        android:layout_margin="45dp"
+        android:layout_gravity="center"
+        android:onClick="save_caterer"
+        android:text=" save"
+
+
+        />
+</LinearLayout>
+</RelativeLayout>

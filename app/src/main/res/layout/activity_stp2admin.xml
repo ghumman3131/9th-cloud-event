@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hehe">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/decor_grad"></View>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lay1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/venue_book"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text=" venue's"
+                android:background="@drawable/stroke_venue"
+                android:onClick="open_veneue"
+                />
+
+
+            <Button
+                android:id="@+id/decoraters_book"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text=" decoraters"
+                android:background="@drawable/stroke_decor"
+                android:onClick="open_decorator"
+                />
+
+            <Button
+                android:id="@+id/caterers_book"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/stroke_caterer"
+                android:text="caterers"
+                android:onClick="add_caterers"
+                />
+
+            <Button
+                android:id="@+id/dj_book"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/stroke_dj"
+                android:text=" Dj"
+                android:onClick="add_Dj"
+                />
+
+            <Button
+                android:id="@+id/photographer_book"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/stroke_photo"
+                android:text=" photographer's"
+                android:onClick="add_photographers"
+                />
+
+            <Button
+                android:id="@+id/designers_book"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/stroke_design"
+                android:text=" designers"
+                android:onClick="add_designers"
+                />
+
+            <Button
+                android:id="@+id/saloon_book"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/stroke_salon"
+                android:text=" salon's"
+                android:onClick="add_salon"
+                />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

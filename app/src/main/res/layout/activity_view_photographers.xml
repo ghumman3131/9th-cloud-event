@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hehe">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/phot_grad"></View>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECT  Photgragher"
+        android:textSize="20dp"
+        android:textAllCaps="true"
+        android:layout_margin="20dp"
+        android:id="@+id/selec_txt"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:id="@+id/skip_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/selec_txt"
+        android:background="@drawable/stroke_photo"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:text=" skip"
+ android:onClick="skip_photo"
+
+
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_below="@id/skip_button"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:id="@+id/photo_recycler">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>
+
+

@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/salon">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/salon_grad"></View>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECT  salon"
+        android:textSize="20dp"
+        android:textAllCaps="true"
+        android:layout_margin="20dp"
+        android:id="@+id/selec_txt"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:id="@+id/skip_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:layout_below="@+id/selec_txt"
+        android:background="@drawable/stroke_salon"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:text=" skip"
+        android:onClick="skip_salon"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/salon_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/skip_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp">
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>
+
+

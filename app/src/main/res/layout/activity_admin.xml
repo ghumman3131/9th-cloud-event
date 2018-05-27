@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wow"
+    android:orientation="vertical"
+    tools:context=".view_book_event"
+    >
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/venue_grad"></View>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lay1"
+        android:weightSum="2">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="NAME"
+    android:id="@+id/name"
+    android:layout_weight="1"
+    android:layout_margin="20dp"
+    android:textSize="30dp"
+    android:textColor="#000"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:layout_weight="1"
+        android:onClick="call_user"
+        android:layout_alignParentRight="true"
+        android:id="@+id/call"
+        android:layout_margin="20dp"
+        android:textSize="30dp"
+        android:textColor="#000"
+        />
+    </LinearLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/lay1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <Button
+        android:id="@+id/venue_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text=" venue's"
+android:background="@drawable/stroke_venue"
+        android:onClick="venue"
+        />
+
+
+    <Button
+        android:id="@+id/decoraters_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text=" decoraters"
+        android:background="@drawable/stroke_decor"
+        android:onClick="decorator"
+        />
+
+    <Button
+        android:id="@+id/caterers_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+        android:background="@drawable/stroke_caterer"
+        android:text="caterers"
+        android:onClick="caterers"
+        />
+
+    <Button
+        android:id="@+id/dj_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/stroke_dj"
+        android:text=" Dj"
+        android:onClick="Dj"
+        />
+
+    <Button
+        android:id="@+id/photographer_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/stroke_photo"
+        android:text=" photographer's"
+        android:onClick="photographers"
+        />
+
+    <Button
+        android:id="@+id/designers_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/stroke_design"
+        android:text=" designers"
+        android:onClick="designers"
+        />
+
+    <Button
+        android:id="@+id/saloon_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/stroke_salon"
+        android:text=" salon's"
+        android:onClick="salon"
+        />
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/venue_grad"
+    android:orientation="vertical">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <EditText
+        android:id="@+id/et_venuename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/stroke"
+        android:gravity="center"
+        android:hint="venue name"
+        android:textColorHint="#000" />
+
+
+
+    <EditText
+        android:id="@+id/et_venue_loc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/stroke"
+        android:gravity="center"
+        android:hint="venue location"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:clickable="true"
+        android:onClick="pick_location"
+        android:textColorHint="#000" />
+
+    <TextView
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/stroke"
+        android:gravity="center"
+        android:text="services"
+        android:textSize="20dp"
+        android:textColor="#000" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AC halls"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/rb_service1"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rb_service2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Kitchen" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:id="@+id/rb_service3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"
+        android:text="Ready Room" />
+
+    <EditText
+        android:id="@+id/et_capacity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/stroke"
+        android:gravity="center"
+        android:hint="capacity ( number of persons )"
+        android:inputType="number"
+        android:imeOptions="actionNext"
+        android:textColorHint="#000" />
+
+
+    <EditText
+        android:id="@+id/et_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/stroke"
+        android:gravity="center"
+        android:hint="price in INR"
+        android:inputType="number"
+        android:imeOptions="actionDone"
+        android:textColorHint="#000" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_margin="45dp"
+        android:background="@drawable/stroke_venue"
+        android:onClick="save_data"
+        android:layout_alignRight="@+id/price"
+        android:layout_marginBottom="30dp"
+        android:text=" save" />
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">9th cloud events</string>
+
+
+    <string-array name="services">
+        <item>venue</item>
+        <item>decorater</item>
+        <item>caterer</item>
+        <item>Dj</item>
+        <item>photographer</item>
+        <item>designer</item>
+        <item>salon</item>
+
+    </string-array>
+
+
+    <string-array name="locations">
+        <item>Any</item>
+        <item>Amritsar</item>
+        <item>Jalandhar</item>
+        <item>Ludhiana</item>
+        <item>Chandigarh</item>
+        <item>Gurdaspur</item>
+        <item>Bathinda</item>
+        <item>Ferozpur</item>
+
+    </string-array>
+</resources>

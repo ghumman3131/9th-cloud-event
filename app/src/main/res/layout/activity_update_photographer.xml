@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/photographer1"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/phot_grad"></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_photographername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/stroke"
+            android:gravity="center"
+            android:hint="photographer's name"
+            android:textColorHint="#000" />
+
+
+
+        <EditText
+            android:id="@+id/et_photographerloc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/stroke"
+            android:gravity="center"
+            android:hint=" photographer's location"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:id="@+id/et_photographerservices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/stroke"
+            android:gravity="center"
+            android:hint="services"
+            android:textColorHint="#000" />
+
+
+        <EditText
+            android:id="@+id/et_photographerprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/stroke"
+            android:gravity="center"
+            android:hint="price"
+
+            android:textColorHint="#000" />
+
+        <Button
+            android:id="@+id/save_photographer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_margin="45dp"
+            android:background="@drawable/stroke_photo"
+            android:onClick="Update_photographer"
+            android:layout_marginTop="45dp"
+            android:layout_gravity="center"
+            android:text="Update"
+
+
+            />
+    </LinearLayout>
+</RelativeLayout>
