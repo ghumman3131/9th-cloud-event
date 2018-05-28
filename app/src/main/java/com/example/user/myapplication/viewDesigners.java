@@ -144,7 +144,7 @@ public class viewDesigners extends AppCompatActivity {
                     i.putExtra("designername", designername);
                     i.putExtra("designerloc", designerloc);
                     i.putExtra("designerservice", designerservice);
-                    i.putExtra("designerprice", designerprice);
+                    i.putExtra("designerprice", String.valueOf(designerprice));
 
                     i.putExtra("title" , getIntent().getStringExtra("title"));
                     i.putExtra("date" , getIntent().getStringExtra("date"));

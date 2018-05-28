@@ -145,8 +145,8 @@ public class viewDj extends AppCompatActivity {
                     Intent i=new Intent(viewDj.this,viewDjDetails.class);
                     i.putExtra("djname",djname);
                     i.putExtra("djloc",djloc);
-                    i.putExtra("djservices",djservice);
-                    i.putExtra("djprice",djprice);
+                    i.putExtra("djservice",djservice);
+                    i.putExtra("djprice",String.valueOf(djprice));
 
                     i.putExtra("title" , getIntent().getStringExtra("title"));
                     i.putExtra("date" , getIntent().getStringExtra("date"));

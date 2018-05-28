@@ -121,7 +121,7 @@ LinearLayout salon_lay;
                     Intent i=new Intent(addSalon.this,updatesalon.class);
                     i.putExtra("salonname",salonname);
                     i.putExtra("salonloc",salonloc);
-                    i.putExtra("salonservices",salonservice);
+                    i.putExtra("salonservice",salonservice);
                     i.putExtra("salonprice",salonprice);
                     startActivity(i);
                 }

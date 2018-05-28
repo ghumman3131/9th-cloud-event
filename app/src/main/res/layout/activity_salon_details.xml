@@ -10,7 +10,10 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/salon_grad"></View>
+        android:background="@drawable/salon_grad">
+
+    </View>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -25,12 +28,9 @@
         android:layout_margin="10dp"
         android:background="@drawable/stroke"
         android:gravity="center"
-        android:focusable="false"
-        android:focusableInTouchMode="false"
-        android:clickable="true"
-        android:onClick="pick_location"
         android:hint="salon name"
-        android:textColorHint="#000" />
+        android:textColorHint="#000"
+        />
 
 
 
@@ -42,6 +42,10 @@
         android:layout_margin="10dp"
         android:background="@drawable/stroke"
         android:gravity="center"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:clickable="true"
+        android:onClick="pick_location"
         android:hint=" salon location"
         android:textColorHint="#000" />
 

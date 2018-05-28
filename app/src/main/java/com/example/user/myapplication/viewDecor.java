@@ -148,7 +148,7 @@ public class viewDecor extends AppCompatActivity {
                     Intent i = new Intent(viewDecor.this, viewDecorDetails.class);
                     i.putExtra("decoratername", decoratername);
                     i.putExtra("decoraterloc", decoraterloc);
-                    i.putExtra("decoraterservices", decoraterservice);
+                    i.putExtra("decoraterservice", decoraterservice);
                     i.putExtra("decoraterprice", String.valueOf(decoraterprice));
                     i.putExtra("service1" , data.decoratorservice);
 

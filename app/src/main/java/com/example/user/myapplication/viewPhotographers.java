@@ -123,8 +123,8 @@ public class viewPhotographers extends AppCompatActivity {
                     Intent i=new Intent(viewPhotographers.this,viewPhotographerDetails.class);
                     i.putExtra("photographername",photographername);
                     i.putExtra("photographerloc",photographerloc);
-                    i.putExtra("photographerservices",photographerservice);
-                    i.putExtra("photographerprice",photographerprice);
+                    i.putExtra("photographerservice",photographerservice);
+                    i.putExtra("photographerprice",String.valueOf(photographerprice));
                     startActivity(i);
                 }
             });

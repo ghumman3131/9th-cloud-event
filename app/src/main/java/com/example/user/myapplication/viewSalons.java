@@ -122,8 +122,8 @@ public class viewSalons extends AppCompatActivity {
                     Intent i=new Intent(viewSalons.this,viewSalonDetails.class);
                     i.putExtra("salonname",salonname);
                     i.putExtra("salonloc",salonloc);
-                    i.putExtra("salonservices",salonservice);
-                    i.putExtra("salonprice",salonprice);
+                    i.putExtra("salonservice",salonservice);
+                    i.putExtra("salonprice",String.valueOf(salonprice));
                     startActivity(i);
                 }
             });
