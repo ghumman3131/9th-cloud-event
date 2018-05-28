@@ -89,6 +89,16 @@
                 android:text=" salon's"
                 android:onClick="add_salon"
                 />
+
+            <Button
+                android:id="@+id/view_book"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/stroke_salon"
+                android:text="Bookings"
+                android:onClick="view_bookings"
+                />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

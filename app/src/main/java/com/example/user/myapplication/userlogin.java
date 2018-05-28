@@ -40,6 +40,7 @@ public class userlogin extends AppCompatActivity {
                 if(task.isSuccessful())
                 {
                     startActivity( new Intent(userlogin.this , user_home.class));
+                    finish();
 
 
                 }

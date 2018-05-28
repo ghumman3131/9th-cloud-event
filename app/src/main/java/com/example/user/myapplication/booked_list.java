@@ -37,6 +37,7 @@ public class booked_list extends AppCompatActivity {
     }
 
     public void get_booked_list()
+
     {
         FirebaseAuth firebase = FirebaseAuth.getInstance();
         final String email = firebase.getCurrentUser().getEmail().replace(".", "");
@@ -139,6 +140,60 @@ public class booked_list extends AppCompatActivity {
                     if(data.service.equals("venue"))
                     {
                         Intent i = new Intent(booked_list.this , viewbookedvenueDetails.class);
+
+                        i.putExtra("vendor_key" , data.vendor_key);
+
+                        startActivity(i);
+                    }
+
+                    if(data.service.equals("caterer"))
+                    {
+                        Intent i = new Intent(booked_list.this , viewbookedCaterersDetails.class);
+
+                        i.putExtra("vendor_key" , data.vendor_key);
+
+                        startActivity(i);
+                    }
+
+                    if(data.service.equals("decorator"))
+                    {
+                        Intent i = new Intent(booked_list.this , viewbookedDecorDetails.class);
+
+                        i.putExtra("vendor_key" , data.vendor_key);
+
+                        startActivity(i);
+                    }
+
+                    if(data.service.equals("designer"))
+                    {
+                        Intent i = new Intent(booked_list.this , viewbookedDesignerDetails.class);
+
+                        i.putExtra("vendor_key" , data.vendor_key);
+
+                        startActivity(i);
+                    }
+
+                    if(data.service.equals("photographer"))
+                    {
+                        Intent i = new Intent(booked_list.this , viewbookedPhotographerDetails.class);
+
+                        i.putExtra("vendor_key" , data.vendor_key);
+
+                        startActivity(i);
+                    }
+
+                    if(data.service.equals("salon"))
+                    {
+                        Intent i = new Intent(booked_list.this , viewbookedSalonDetails.class);
+
+                        i.putExtra("vendor_key" , data.vendor_key);
+
+                        startActivity(i);
+                    }
+
+                    if(data.service.equals("dj"))
+                    {
+                        Intent i = new Intent(booked_list.this , viewbookedDjDetails.class);
 
                         i.putExtra("vendor_key" , data.vendor_key);
 

@@ -70,4 +70,19 @@ public class salonDetails extends AppCompatActivity {
         }
 
     }
+
+    public void pick_location(View view) {
+
+        startActivityForResult(new Intent(salonDetails.this , PlacePickerActivity.class) , 300);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if(requestCode == 300 && resultCode == 200)
+        {
+            et_salonloc.setText(data.getStringExtra("place"));
+        }
+    }
 }

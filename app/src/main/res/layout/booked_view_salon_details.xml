@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main2"
@@ -7,10 +6,14 @@
     android:layout_height="match_parent"
     android:background="@drawable/salon"
     android:orientation="vertical">
+
     <View
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/salon_grad"></View>
+        android:background="@drawable/salon_grad">
+
+    </View>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -64,6 +67,25 @@
         android:hint="price"
 
         android:textColorHint="#000" />
+
+        <android.support.v7.widget.AppCompatRatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:max="5"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/rating_bar"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="45dp"
+            android:background="@drawable/stroke_venue"
+            android:text="RATE"
+            android:clickable="true"
+            android:onClick="rate"/>
 
 
 </LinearLayout>

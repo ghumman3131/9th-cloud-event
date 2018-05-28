@@ -4,10 +4,8 @@
     <modules>
       <module fileurl="file://C:\Users\HP\Desktop\9th-cloud-event\9th-cloud.iml" filepath="C:\Users\HP\Desktop\9th-cloud-event\9th-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/9th-cloud-event.iml" filepath="$PROJECT_DIR$/9th-cloud-event.iml" />
-      <module fileurl="file://$PROJECT_DIR$/9th-cloud-event.iml" filepath="$PROJECT_DIR$/9th-cloud-event.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://C:\Users\HP\Desktop\9th-cloud-event\app\app.iml" filepath="C:\Users\HP\Desktop\9th-cloud-event\app\app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://C:\Users\HP\Desktop\9th-cloud-event\myapplication.iml" filepath="C:\Users\HP\Desktop\9th-cloud-event\myapplication.iml" />
     </modules>
   </component>

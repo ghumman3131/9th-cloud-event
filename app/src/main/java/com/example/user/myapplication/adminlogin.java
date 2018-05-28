@@ -40,6 +40,7 @@ public class adminlogin extends AppCompatActivity {
                 if(task.isSuccessful())
                 {
                     startActivity( new Intent(adminlogin.this , stp2admin.class));
+                    finish();
 
 
                 }

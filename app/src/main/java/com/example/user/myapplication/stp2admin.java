@@ -56,4 +56,9 @@ public class stp2admin extends AppCompatActivity {
         startActivity(new Intent(stp2admin.this , addSalon.class));
 
     }
+
+    public void view_bookings(View view) {
+
+        startActivity(new Intent(stp2admin.this , admin_booked_list.class));
+    }
 }

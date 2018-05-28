@@ -37,7 +37,11 @@
         android:background="@drawable/stroke"
         android:gravity="center"
         android:hint=" caterer's location"
-        android:textColorHint="#000" />
+        android:textColorHint="#000"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:clickable="true"
+        android:onClick="pick_location"/>
 
     <EditText
         android:id="@+id/et_catererservices"

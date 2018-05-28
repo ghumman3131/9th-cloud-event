@@ -153,7 +153,7 @@ public class viewVenues extends AppCompatActivity {
 
                     startActivity(i);
 
-                    finish();
+
                 }
             }); }
 

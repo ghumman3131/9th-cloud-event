@@ -6,7 +6,7 @@ package com.example.user.myapplication.data_model;
 
 public class SingleServiceBooking {
 
-    public String title , date , service , vendor_key ;
+    public String title , date , service , vendor_key , booked_by ;
 
     public SingleServiceBooking()
     {

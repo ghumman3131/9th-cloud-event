@@ -66,5 +66,20 @@ public class catererDetails extends AppCompatActivity {
 
     }
 
+    public void pick_location(View view) {
+
+        startActivityForResult(new Intent(catererDetails.this , PlacePickerActivity.class) , 300);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if(requestCode == 300 && resultCode == 200)
+        {
+            et_catererloc.setText(data.getStringExtra("place"));
+        }
+    }
+
 
 }

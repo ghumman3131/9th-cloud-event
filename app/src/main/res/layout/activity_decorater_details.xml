@@ -32,11 +32,16 @@
 
     <EditText
         android:id="@+id/et_decoraterloc"
-        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:padding="20dp"
         android:layout_margin="10dp"
         android:background="@drawable/stroke"
         android:gravity="center"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:clickable="true"
+        android:onClick="pick_location"
         android:hint=" Decorater location"
         android:textColorHint="#000" />
 
