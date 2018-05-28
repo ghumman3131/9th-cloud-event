@@ -122,7 +122,7 @@ LinearLayout dj_lay;
                i.putExtra("djname",djname);
                     i.putExtra("djloc",djloc);
                     i.putExtra("djservices",djservice);
-                    i.putExtra("djprice",djprice);
+                    i.putExtra("djprice",String.valueOf(djprice));
                     startActivity(i);
                 }
             });

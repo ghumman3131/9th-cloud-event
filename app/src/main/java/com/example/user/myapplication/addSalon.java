@@ -122,7 +122,7 @@ LinearLayout salon_lay;
                     i.putExtra("salonname",salonname);
                     i.putExtra("salonloc",salonloc);
                     i.putExtra("salonservice",salonservice);
-                    i.putExtra("salonprice",salonprice);
+                    i.putExtra("salonprice",String.valueOf(salonprice));
                     startActivity(i);
                 }
             });
